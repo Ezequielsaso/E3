@@ -1,0 +1,64 @@
+body{
+  background-color: rgb(167, 76, 76);
+}
+
+.card {
+  background-color: bisque;
+  border: 1px solid #ccc;
+  border-radius: 11px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+
+}
+
+.card p {
+  margin: 7px;
+}
+
+#mensajeError {
+  color: red;
+  margin-bottom: 35px;
+  
+
+}
+
+
+
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  margin-bottom: 532px;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column; 
+gap: 30px;
+justify-content: center;
+align-items: center;
+}
+
+#button{
+  border-radius: 4px;
+  padding: 10px 26px;
+}
+
